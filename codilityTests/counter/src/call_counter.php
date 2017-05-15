@@ -3,10 +3,10 @@
 
 namespace TDD;
 
-require_once 'src/Counter.php';
+
+require_once (dirname(__DIR__)).'/src/Counter.php';
 
 $Counter = new Counter();
-
 $Counter->TurnOnErrorReporting();
 
 $Counter->counter_size = 5;//N
